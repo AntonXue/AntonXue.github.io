@@ -5,17 +5,18 @@ permalink: /research/
 author_profile: true
 ---
 
-
-
-## Publications
+## Preprints
 
 * Anton Xue, Lars Lindemann, and Rajeev Alur. [Parametric Chordal Sparsity for SDP-Based Neural Network Verification](https://arxiv.org/pdf/2206.03482.pdf). Submitted, 2022. [[GitHub]](https://github.com/AntonXue/nn-sdp/)
 
-* Anton Xue, Lars Lindemann, Alexander Robey, Hamed Hassani, George Pappas, and Rajeev Alur. [Chordal Sparsity for Lipschitz Constant Estimation of Deep Neural Networks](https://arxiv.org/pdf/2204.00846.pdf). Submitted, 2022. [[GitHub]](https://github.com/AntonXue/chordal-lipsdp)
-
-* Rajeev Alur, Phillip Hilliard, Zachary Ives, Konstantinos Kallas, Konstantinos Mamouras, Filip Niksic, Caleb Stanford, Val Tannen, and Anton Xue. [Synchronization Schemas](https://www.cis.upenn.edu/~alur/PODS21.pdf). Principles of Database Systems.
-
 * Ziyang Li, Anton Xue, Aravind Machiry, Mayur Naik, and Rajeev Alur. [Bityr: A Pluggable Framework for Learning Types from Binaries](/files/papers/sp2022-bityr.pdf).
+
+
+## Conference Publications
+
+* Anton Xue, Lars Lindemann, Alexander Robey, Hamed Hassani, George Pappas, and Rajeev Alur. [Chordal Sparsity for Lipschitz Constant Estimation of Deep Neural Networks](https://arxiv.org/pdf/2204.00846.pdf). IEEE Conference on Decision and Control, 2022. [[GitHub]](https://github.com/AntonXue/chordal-lipsdp)
+
+* Rajeev Alur, Phillip Hilliard, Zachary Ives, Konstantinos Kallas, Konstantinos Mamouras, Filip Niksic, Caleb Stanford, Val Tannen, and Anton Xue. [Synchronization Schemas](https://www.cis.upenn.edu/~alur/PODS21.pdf). Principles of Database Systems, 2021.
 
 * Anton Xue and Nikolai Matni. [Data-Driven System Leven Synthesis](https://arxiv.org/abs/2011.10674). Learning for Decision and Control, 2021. [[GitHub]](https://github.com/unstable-zeros/data-driven-sls)
 
