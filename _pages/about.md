@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student studying Computer Science at the University of Pennsylvania.
+I am a fourth-year Ph.D. student studying Computer Science at the University of Pennsylvania.
 I am advised by [Prof. Rajeev Alur](https://www.cis.upenn.edu/~alur/).
 I am broadly interested in
 - Convex Optimization
