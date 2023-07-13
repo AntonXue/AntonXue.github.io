@@ -9,9 +9,10 @@ redirect_from:
 ---
 
 I am a fourth-year Ph.D. student studying Computer Science at the University of Pennsylvania.
-I am advised by [Prof. Rajeev Alur](https://www.cis.upenn.edu/~alur/).
-I am broadly interested in
+I am advised by [Prof. Rajeev Alur](https://www.cis.upenn.edu/~alur/) and [Prof. Eric Wong](https://www.cis.upenn.edu/~exwong/).
+I am broadly interested in:
+- Explainable Machine Learning
 - Convex Optimization
-- Formal Methods + Neural Networks
+- Formal Methods
 - Programming Languages
 
