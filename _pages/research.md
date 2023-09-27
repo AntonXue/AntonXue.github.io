@@ -5,18 +5,21 @@ permalink: /research/
 author_profile: true
 ---
 
-## Preprints
+## In Progress
 
-* [Stability Guarantees for Feature Attributions with Multiplicative Smoothing](https://arxiv.org/abs/2307.05902).
-Anton Xue, Rajeev Alur, and Eric Wong.
-Submitted, 2023.
+* Logic-based Chain-of-Thought Reasoning with Transformers
+
+* Counterfactual Examples in Anomaly Detection
+
+
+## Preprints
 
 * [GTX: Ground Truth eXplanation Dataset](/files/papers/ji2023gtx.pdf).
 Xiayan Ji, Anton Xue, Rajeev Alur, Oleg Sokolsky, Insup Lee, Eric Wong.
 Submitted, 2023.
-[[GitHup]](https://github.com/xjiae/HDDDS)
+[[GitHub]](https://github.com/xjiae/HDDDS)
 
-* [Parametric Chordal Sparsity for SDP-Based Neural Network Verification](https://arxiv.org/abs/2206.03482).
+* [Chordal Sparsity for SDP-Based Neural Network Verification](https://arxiv.org/abs/2206.03482).
 Anton Xue, Lars Lindemann, and Rajeev Alur.
 Submitted, 2023.
 [[GitHub]](https://github.com/AntonXue/nn-sdp/)
@@ -27,6 +30,12 @@ Submitted, 2023.
 
 
 ## Conference Publications
+
+* [Stability Guarantees for Feature Attributions with Multiplicative Smoothing](https://arxiv.org/abs/2307.05902).
+Anton Xue, Rajeev Alur, and Eric Wong.
+Neural Information Processing Systems, 2023.
+[[GitHub]](https://github.com/debugml/mus)
+[[Blog post]](https://debugml.github.io/multiplicative-smoothing/)
 
 * [Chordal Sparsity for Lipschitz Constant Estimation of Deep Neural Networks](https://arxiv.org/abs/2204.00846).
 Anton Xue, Lars Lindemann, Alexander Robey, Hamed Hassani, George Pappas, and Rajeev Alur.
@@ -55,5 +64,6 @@ Haskell Symposium, 2019.
 * [Lazy Counterfactual Symbolic Execution](/files/papers/hallahan2019lazy.pdf).
 William Hallahan, Anton Xue, Maxwell Bland, Ranjit Jhala, and Ruzica Piskac.
 Programming Language Design and Implementation, 2019.
-[[GitHub]](https://github.com/BillHallahan/G2) [[Video Abstract]](https://www.youtube.com/watch?v=zm08WsaxOlk)
+[[GitHub]](https://github.com/BillHallahan/G2)
+[[Video Abstract]](https://www.youtube.com/watch?v=zm08WsaxOlk)
 
