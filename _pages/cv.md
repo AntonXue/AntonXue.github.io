@@ -30,5 +30,6 @@ Work Experience
 
 Skills
 ======
-* Competitive Pokemon battling
+* Breakdancing
+* Competitive Pokemon battling (Gens 4-8)
 

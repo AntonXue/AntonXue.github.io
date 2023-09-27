@@ -9,6 +9,8 @@ author_profile: true
 
 * Logic-based Chain-of-Thought Reasoning with Transformers
 
+* Explaining Surgical AI Safety Guidance for Laparoscopic Cholecystectomy
+
 * Counterfactual Examples in Anomaly Detection
 
 
