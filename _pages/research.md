@@ -13,6 +13,8 @@ author_profile: true
 
 * Counterfactual Examples in Anomaly Detection
 
+* [BachioLab's exlib](https://github.com/BrachioLab/exlib)
+
 
 ## Preprints
 
@@ -47,6 +49,10 @@ IEEE Conference on Decision and Control, 2022.
 * [Synchronization Schemas](/files/papers/alur2021synchronization.pdf).
 Rajeev Alur, Phillip Hilliard, Zachary Ives, Konstantinos Kallas, Konstantinos Mamouras, Filip Niksic, Caleb Stanford, Val Tannen, and Anton Xue.
 Principles of Database Systems, 2021.
+
+* [Safe Reinforcement Learning via Statistical Model Predictive Shielding](/files/papers/bastani2021safe.pdf).
+Osbsert Bastani, Shuo Li, Anton Xue.
+Robotics: Science and Systems, 2021.
 
 * [Data-Driven System Leven Synthesis](https://arxiv.org/abs/2011.10674).
 Anton Xue and Nikolai Matni.
