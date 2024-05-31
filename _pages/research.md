@@ -54,7 +54,7 @@ Principles of Database Systems, 2021.
 Osbsert Bastani, Shuo Li, Anton Xue.
 Robotics: Science and Systems, 2021.
 
-* [Data-Driven System Leven Synthesis](https://arxiv.org/abs/2011.10674).
+* [Data-Driven System Level Synthesis](https://arxiv.org/abs/2011.10674).
 Anton Xue and Nikolai Matni.
 Learning for Decision and Control, 2021.
 [[GitHub]](https://github.com/unstable-zeros/data-driven-sls)
