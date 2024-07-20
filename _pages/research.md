@@ -7,33 +7,39 @@ author_profile: true
 
 ## In Progress
 
-* Logic-based Chain-of-Thought Reasoning with Transformers
+* Understanding how and why LLMs (don't) logically reason correctly.
 
-* Explaining Surgical AI Safety Guidance for Laparoscopic Cholecystectomy
+* Explaining diffusion models.
 
-* Counterfactual Examples in Anomaly Detection
+* Explaining surgical AI safety guidance for gallbladder surgery.
 
-* [BachioLab's exlib](https://github.com/BrachioLab/exlib)
+* [BachioLab's exlib](https://github.com/BrachioLab/exlib).
 
 
 ## Preprints
+
+* [Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075).
+Anton Xue, Avishree Khare, Rajeev Alur, Surbhi Goel, Eric Wong.
+Submitted, 2024.
+[[GitHub]](https://github.com/AntonXue/tf_logic)
+[[Blog post]](https://debugml.github.io/logicbreaks/)
+
 
 * [GTX: Ground Truth eXplanation Dataset](/files/papers/ji2023gtx.pdf).
 Xiayan Ji, Anton Xue, Rajeev Alur, Oleg Sokolsky, Insup Lee, Eric Wong.
 Submitted, 2023.
 [[GitHub]](https://github.com/xjiae/HDDDS)
 
+## Publications
+
+* [TYGR: Type Inference on Stripped Binaries using Graph Neural Networks](https://www.cis.upenn.edu/~alur/Usenix-Security24.pdf).
+Chang Zhu, Ziyang Li, Anton Xue, Ati Priya Bajaj, William Gibbs, Yibo Liu ,Rajeev Alur, Tiffany Bao, Hanjun Dai, Adam Doupé, Mayur Naik, Yan Shoshitaishvili, Ruoyu Wang, and Aravind Machiry.
+USENIX Security, 2024.
+
 * [Chordal Sparsity for SDP-Based Neural Network Verification](https://arxiv.org/abs/2206.03482).
 Anton Xue, Lars Lindemann, and Rajeev Alur.
-Submitted, 2023.
+Automatica, 2024.
 [[GitHub]](https://github.com/AntonXue/nn-sdp/)
-
-* [Bityr: A Pluggable Framework for Learning Types from Binaries](/files/papers/zhu2023bityr.pdf).
-Chang Zhu, Ziyang Li, Anton Xue, Hanjun Dai, Mayur Naik, Rajeev Alur, Ruoyu Wang, Aravind Machiry.
-Submitted, 2023.
-
-
-## Conference Publications
 
 * [Stability Guarantees for Feature Attributions with Multiplicative Smoothing](https://arxiv.org/abs/2307.05902).
 Anton Xue, Rajeev Alur, and Eric Wong.
@@ -51,7 +57,7 @@ Rajeev Alur, Phillip Hilliard, Zachary Ives, Konstantinos Kallas, Konstantinos M
 Principles of Database Systems, 2021.
 
 * [Safe Reinforcement Learning via Statistical Model Predictive Shielding](/files/papers/bastani2021safe.pdf).
-Osbsert Bastani, Shuo Li, Anton Xue.
+Osbert Bastani, Shuo Li, Anton Xue.
 Robotics: Science and Systems, 2021.
 
 * [Data-Driven System Level Synthesis](https://arxiv.org/abs/2011.10674).
