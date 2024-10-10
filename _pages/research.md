@@ -7,33 +7,42 @@ author_profile: true
 
 ## In Progress
 
-* Understanding how and why LLMs (don't) logically reason correctly.
+* Making LLMs reason better by using logic to rewrite prompts.
 
-* Explaining diffusion models.
+* Integrating classical logic decision algorithms with LLMs.
 
-* Explaining surgical AI safety guidance for gallbladder surgery.
+* Better optimization algorithms for representation learning.
 
-* [BachioLab's exlib](https://github.com/BrachioLab/exlib).
+* I am a developer on [BachioLab's exlib](https://github.com/BrachioLab/exlib).
 
 
 ## Preprints
 
 * [Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075).
-Anton Xue, Avishree Khare, Rajeev Alur, Surbhi Goel, Eric Wong.
-Submitted, 2024.
+Anton Xue\*, Avishree Khare\*, Rajeev Alur, Surbhi Goel, Eric Wong.
+In submission, 2024.
 [[GitHub]](https://github.com/AntonXue/tf_logic)
 [[Blog post]](https://debugml.github.io/logicbreaks/)
 
+* [The FIX Benchmark: Extracting Features Interpretable to eXperts](https://arxiv.org/abs/2409.13684).
+Helen Jin, Shreya Havaldar, Chaehyeon Kim, Anton Xue, Weiqiu You, Helen Qu, Marco Gatti, Daniel A Hashimoto, Bhuvnesh Jain, Amin Madani, Masao Sako, Lyle Ungar, Eric Wong.
+In submission, 2024.
+[[GitHub]](https://github.com/BrachioLab/exlib)
 
+<!--
 * [GTX: Ground Truth eXplanation Dataset](/files/papers/ji2023gtx.pdf).
 Xiayan Ji, Anton Xue, Rajeev Alur, Oleg Sokolsky, Insup Lee, Eric Wong.
 Submitted, 2023.
 [[GitHub]](https://github.com/xjiae/HDDDS)
+-->
 
 ## Publications
+* [AR-Pro: Anomaly Explanation and Repair with Formal Properties](/files/papers/ji2024arpro.pdf).
+Xiayan Ji\*, Anton Xue\*, Eric Wong, Oleg Sokolsky, Insup Lee.
+Neural Information Processing Systems, 2024.
 
 * [TYGR: Type Inference on Stripped Binaries using Graph Neural Networks](https://www.cis.upenn.edu/~alur/Usenix-Security24.pdf).
-Chang Zhu, Ziyang Li, Anton Xue, Ati Priya Bajaj, William Gibbs, Yibo Liu ,Rajeev Alur, Tiffany Bao, Hanjun Dai, Adam Doupé, Mayur Naik, Yan Shoshitaishvili, Ruoyu Wang, and Aravind Machiry.
+Chang Zhu, Ziyang Li, Anton Xue, Ati Priya Bajaj, William Gibbs, Yibo Liu, Rajeev Alur, Tiffany Bao, Hanjun Dai, Adam Doupé, Mayur Naik, Yan Shoshitaishvili, Ruoyu Wang, and Aravind Machiry.
 USENIX Security, 2024.
 
 * [Chordal Sparsity for SDP-Based Neural Network Verification](https://arxiv.org/abs/2206.03482).

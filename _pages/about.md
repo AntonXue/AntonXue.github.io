@@ -8,11 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Ph.D. student studying Computer Science at the University of Pennsylvania.
-I am advised by [Prof. Rajeev Alur](https://www.cis.upenn.edu/~alur/) and [Prof. Eric Wong](https://www.cis.upenn.edu/~exwong/).
+<!--
+I am a sixth-year Computer Science Ph.D. student at the University of Pennsylvania advised by [Prof. Rajeev Alur](https://www.cis.upenn.edu/~alur/) and [Prof. Eric Wong](https://www.cis.upenn.edu/~exwong/).
+-->
+
+My goal is to make ML systems safe and interpretable using formal methods, control theory, and optimization!
 I am broadly interested in:
-- Explainable Machine Learning
-- Formal Methods
-- Dynamical Systems and Control
-- Applied Optimization
+- Making LLMs better at **logical reasoning**
+- Training models that are **interpretable** by design
+- Developing simple yet useful **explainability** techniques
+- Establishing **formal guarantees** for ML systems
+- **Linear algebra** and big matrices
+
 
