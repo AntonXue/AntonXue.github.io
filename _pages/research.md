@@ -13,7 +13,7 @@ author_profile: true
 
 * Better optimization algorithms for representation learning.
 
-* I am a developer on [BachioLab's exlib](https://github.com/BrachioLab/exlib).
+* I am a developer on [BrachioLab's exlib](https://github.com/BrachioLab/exlib).
 
 
 ## Preprints
