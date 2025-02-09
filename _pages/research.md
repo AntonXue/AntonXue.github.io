@@ -7,26 +7,31 @@ author_profile: true
 
 ## In Progress
 
-* Making LLMs reason better by using logic to rewrite prompts.
-
-* Integrating classical logic decision algorithms with LLMs.
+* Boolean function analysis + LLMs.
 
 * Better optimization algorithms for representation learning.
+
+* Understanding what in-context learning learns.
+
+* I am a contributor to the [Transformer Cookbook](https://github.com/pentagonalize/Transformer-Cookbook).
 
 * I am a developer on [BrachioLab's exlib](https://github.com/BrachioLab/exlib).
 
 
 ## Preprints
 
-* [Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075).
-Anton Xue\*, Avishree Khare\*, Rajeev Alur, Surbhi Goel, Eric Wong.
-In submission, 2024.
-[[GitHub]](https://github.com/AntonXue/tf_logic)
-[[Blog post]](https://debugml.github.io/logicbreaks/)
+* [Probabilistic Stability Guarantees for Feature Attributions](/files/papers/jin2025probabilistic.pdf).
+Helen Jin\*, Anton Xue\*, Weiqiu You, Surbhi Goel, Eric Wong.
+In submission.
+
+* [On The Concurrence of Layer-wise Preconditioning Methods and Provable Feature Learning](https://www.arxiv.org/abs/2502.01763).
+Thomas T. Zhang\*, Behrad Moniri\*, Ansh Nagwekar, Faraz Rahman, Anton Xue, Hamed Hassani, Nikolai Matni.
+In submission.
+
 
 * [The FIX Benchmark: Extracting Features Interpretable to eXperts](https://arxiv.org/abs/2409.13684).
 Helen Jin, Shreya Havaldar, Chaehyeon Kim, Anton Xue, Weiqiu You, Helen Qu, Marco Gatti, Daniel A Hashimoto, Bhuvnesh Jain, Amin Madani, Masao Sako, Lyle Ungar, Eric Wong.
-In submission, 2024.
+In submission.
 [[GitHub]](https://github.com/BrachioLab/exlib)
 
 <!--
@@ -37,6 +42,13 @@ Submitted, 2023.
 -->
 
 ## Publications
+
+* [Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075).
+Anton Xue\*, Avishree Khare\*, Rajeev Alur, Surbhi Goel, Eric Wong.
+International Conference on Learning Representations, 2025.
+[[GitHub]](https://github.com/AntonXue/tf_logic)
+[[Blog post]](https://debugml.github.io/logicbreaks/)
+
 * [AR-Pro: Anomaly Explanation and Repair with Formal Properties](/files/papers/ji2024arpro.pdf).
 Xiayan Ji\*, Anton Xue\*, Eric Wong, Oleg Sokolsky, Insup Lee.
 Neural Information Processing Systems, 2024.
