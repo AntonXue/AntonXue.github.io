@@ -22,7 +22,7 @@ author_profile: true
 
 [Probabilistic Stability Guarantees for Feature Attributions](https://www.arxiv.org/abs/2504.13787)<br>
 Helen Jin\*, <b>Anton Xue</b>\*, Weiqiu You, Surbhi Goel, Eric Wong<br>
-<i>In submission</i>
+<i>In submission</i>, [[Blog post]](https://debugml.github.io/soft-stability/)
 
 
 [On The Concurrence of Layer-wise Preconditioning Methods and Provable Feature Learning](https://www.arxiv.org/abs/2502.01763)<br>
@@ -34,12 +34,6 @@ Thomas T. Zhang\*, Behrad Moniri\*, Ansh Nagwekar, Faraz Rahman, <b>Anton Xue</b
 Helen Jin, Shreya Havaldar, Chaehyeon Kim, <b>Anton Xue</b>, Weiqiu You, Helen Qu, Marco Gatti, Daniel A Hashimoto, Bhuvnesh Jain, Amin Madani, Masao Sako, Lyle Ungar, Eric Wong<br>
 <i>In submission</i>, [[GitHub]](https://github.com/BrachioLab/exlib)
 
-<!--
-* [GTX: Ground Truth eXplanation Dataset](/files/papers/ji2023gtx.pdf).
-Xiayan Ji, Anton Xue, Rajeev Alur, Oleg Sokolsky, Insup Lee, Eric Wong.
-Submitted, 2023.
-[[GitHub]](https://github.com/xjiae/HDDDS)
--->
 
 ## Publications
 [Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075)<br>
@@ -90,3 +84,13 @@ William Hallahan, <b>Anton Xue</b>, and Ruzica Piskac<br>
 [Lazy Counterfactual Symbolic Execution](/files/papers/hallahan2019lazy.pdf)<br>
 William Hallahan, <b>Anton Xue</b>, Maxwell Bland, Ranjit Jhala, and Ruzica Piskac<br>
 <i>PLDI 2019</i>, [[GitHub]](https://github.com/BillHallahan/G2), [[Video Abstract]](https://www.youtube.com/watch?v=zm08WsaxOlk)
+
+
+## Technical Reports
+[GTX: Ground Truth eXplanation Dataset](/files/papers/ji2023gtx.pdf)<br>
+Xiayan Ji, <b>Anton Xue</b>, Rajeev Alur, Oleg Sokolsky, Insup Lee, Eric Wong<br>
+2023, [[GitHub]](https://github.com/xjiae/HDDDS)
+
+[Optimal Control of Deep Equilibrium Networks](/files/papers/xue2022optimal.pdf)<br>
+<b>Anton Xue</b> and Susmit Jha<br>
+2022
