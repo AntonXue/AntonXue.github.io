@@ -19,15 +19,14 @@ author_profile: true
 
 
 ## Preprints
+[Probabilistic Soundness Guarantees in LLM Reasoning Chains](https://arxiv.org/abs/2507.12948)<br>
+Weiqiu You, <b>Anton Xue</b>, Shreya Havaldar, Delip Rao, Helen Jin, Chris Callison-Burch, Eric Wong<br>
+<i>In submission</i>, [[GitHub]](https://github.com/fallcat/ares)
+
 
 [Probabilistic Stability Guarantees for Feature Attributions](https://www.arxiv.org/abs/2504.13787)<br>
 Helen Jin\*, <b>Anton Xue</b>\*, Weiqiu You, Surbhi Goel, Eric Wong<br>
 <i>In submission</i>, [[Blog post]](https://debugml.github.io/soft-stability/)
-
-
-[On The Concurrence of Layer-wise Preconditioning Methods and Provable Feature Learning](https://www.arxiv.org/abs/2502.01763)<br>
-Thomas T. Zhang\*, Behrad Moniri\*, Ansh Nagwekar, Faraz Rahman, <b>Anton Xue</b>, Hamed Hassani, Nikolai Matni<br>
-<i>In submission</i>
 
 
 [The FIX Benchmark: Extracting Features Interpretable to eXperts](https://arxiv.org/abs/2409.13684)<br>
@@ -36,6 +35,11 @@ Helen Jin, Shreya Havaldar, Chaehyeon Kim, <b>Anton Xue</b>, Weiqiu You, Helen Q
 
 
 ## Publications
+[On The Concurrence of Layer-wise Preconditioning Methods and Provable Feature Learning](https://www.arxiv.org/abs/2502.01763)<br>
+Thomas T. Zhang\*, Behrad Moniri\*, Ansh Nagwekar, Faraz Rahman, <b>Anton Xue</b>, Hamed Hassani, Nikolai Matni<br>
+<i>ICML 2025</i>
+
+
 [Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075)<br>
 <b>Anton Xue</b>\*, Avishree Khare\*, Rajeev Alur, Surbhi Goel, Eric Wong<br>
 <i>ICLR 2025</i>, [[GitHub]](https://github.com/AntonXue/tf_logic), [[Blog post]](https://debugml.github.io/logicbreaks/)
