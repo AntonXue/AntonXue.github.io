@@ -14,14 +14,16 @@ Download a [pdf](/files/antonxue_cv.pdf) instead.
 Work Experience
 ======
 * Postdoctoral Research Fellow @ The University of Texas, Austin, 2025 -- Present
+  - [Institute for Foundations of Machine Learning](https://www.ifml.institute/)
 
 
 Education
 ======
 * Ph.D. in Computer and Information Science, University of Pennsylvania, 2019 -- 2025
-    - Advised by [Prof. Rajeev Alur](https://www.cis.upenn.edu/~alur/) and [Prof. Eric Wong](https://riceric22.github.io/)
+    - Advised by [Rajeev Alur](https://www.cis.upenn.edu/~alur/) and [Eric Wong](https://riceric22.github.io/)
+
 * B.S. in Mathematics and Computer Science (Double Major), Yale University, 2015 -- 2019
-    - Advised by [Prof. Ruzica Piskac](https://www.cs.yale.edu/homes/piskac/)
+    - Advised by [Ruzica Piskac](https://www.cs.yale.edu/homes/piskac/)
 
 Internship Experience
 ======
