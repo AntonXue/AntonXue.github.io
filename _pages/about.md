@@ -33,6 +33,10 @@ My recent interests include:
 
 
 ## Preprints
+[The Transformer Cookbook](https://arxiv.org/abs/2510.00368)<br>
+Andy Yang, Christopher Watson, <b>Anton Xue</b>, Satwik Bhattamishra, Jose Llarena, William Merrill, Emile Dos Santos Ferreira, Anej Svete, David Chiang<br>
+<i>Under Submission</i>
+
 [Missingness Bias Calibration in Feature Attribution Explanations](/files/papers/sridhar2025missingness.pdf)<br>
 Shailesh Sridhar, <b>Anton Xue</b>, Eric Wong<br>
 <i>Under Submission</i>
