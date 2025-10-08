@@ -67,7 +67,7 @@ Thomas T. Zhang\*, Behrad Moniri\*, Ansh Nagwekar, Faraz Rahman, <b>Anton Xue</b
 <b>Anton Xue</b>\*, Avishree Khare\*, Rajeev Alur, Surbhi Goel, Eric Wong<br>
 <i>ICLR 2025</i>, [[GitHub]](https://github.com/AntonXue/tf_logic), [[Blog post]](https://debugml.github.io/logicbreaks/)
 
-[AR-Pro: Anomaly Explanation and Repair with Formal Properties](/files/papers/ji2025arpro.pdf)<br>
+[AR-Pro: Anomaly Explanation and Repair with Formal Properties](https://arxiv.org/abs/2410.24178)<br>
 Xiayan Ji\*, <b>Anton Xue</b>\*, Eric Wong, Oleg Sokolsky, Insup Lee<br>
 <i>NeurIPS 2024</i>
 
