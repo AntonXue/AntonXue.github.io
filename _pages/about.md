@@ -9,24 +9,20 @@ redirect_from:
 ---
 
 
-I am a postdoc at the [UT Austin Institute for Foundations of Machine Learning](https://www.ifml.institute/).
+I am a postdoc at the [UT Austin Institute for Foundations of Machine Learning](https://www.ifml.institute/) hosted by [Sanjay Shakkottai](https://sites.google.com/view/sanjay-shakkottai/home) and [Adam Klivans](https://www.cs.utexas.edu/~klivans/).
 I completed my Ph.D. in Computer Science at the University of Pennsylvania under the supervision of [Rajeev Alur](https://www.cis.upenn.edu/~alur/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/).
 Previously, I did my undergrad at Yale University working with [Ruzica Piskac](https://www.cs.yale.edu/homes/piskac/).
 
 
 My goal is to make AI systems safe and robust using ideas from formal methods, optimization, and more!
 My recent interests include:
-- Discrete diffusion for code generation
-- Theorem proving in research mathematics
+- Diffusion language models for code generation
+- Using AI to tackle [open math problems](https://en.wikipedia.org/wiki/Grothendieck_inequality#Upper_bounds)
 - Test-time scaling and verification of LLM reasoning
 
 
 <!--
 ## In Progress
-
-* Learning in-context learning.
-
-* I am a contributor to the [Transformer Cookbook](https://github.com/pentagonalize/Transformer-Cookbook).
 
 * I am a developer on [BrachioLab's exlib](https://github.com/BrachioLab/exlib).
 -->
