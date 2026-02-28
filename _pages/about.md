@@ -29,19 +29,23 @@ My recent interests include:
 
 
 ## Preprints
-[The Transformer Cookbook](https://arxiv.org/abs/2510.00368)<br>
-Andy Yang, Christopher Watson, <b>Anton Xue</b>, Satwik Bhattamishra, Jose Llarena, William Merrill, Emile Dos Santos Ferreira, Anej Svete, David Chiang<br>
+[AnCoder: Anchored Code Generation via Discrete Diffusion Models](https://arxiv.org/abs/2602.17688)<br>
+<b>Anton Xue\*</b>, Litu Rout\*, Constantine Caramanis, Sanjay Shakkottai<br>
 <i>Under Submission</i>
 
-[Missingness Bias Calibration in Feature Attribution Explanations](/files/papers/sridhar2025missingness.pdf)<br>
-Shailesh Sridhar, <b>Anton Xue</b>, Eric Wong<br>
-<i>Under Submission</i>
-
-[T-FIX: Text-Based Explanations with Features Interpretable to eXperts](https://shreyahavaldar.com/files/T-FIX.pdf)<br>
+[T-FIX: Text-Based Explanations with Features Interpretable to eXperts](https://arxiv.org/abs/2511.04070)<br>
 Shreya Havaldar\*, Helen Jin\*, Chaehyeon Kim\*, <b>Anton Xue</b>\*, Weiqiu You\*, Gary Weissman, Rajat Deo, Sameed Khatana, Helen Qu, Marco Gatti, Daniel A Hashimoto, Amin Madani, Masao Sako, Bhuvnesh Jain, Lyle Ungar, Eric Wong<br>
 <i>Under Submission</i>
 
 ## Publications
+
+[Missingness Bias Calibration in Feature Attribution Explanations](https://openreview.net/forum?id=9AbJO130G8)<br>
+Shailesh Sridhar, <b>Anton Xue</b>, Eric Wong<br>
+<i>ICLR 2026</i>
+
+[The Transformer Cookbook](https://arxiv.org/abs/2510.00368)<br>
+Andy Yang, Christopher Watson, <b>Anton Xue</b>, Satwik Bhattamishra, Jose Llarena, William Merrill, Emile Dos Santos Ferreira, Anej Svete, David Chiang<br>
+<i>TMLR 2026</i>
 
 [Probabilistic Stability Guarantees for Feature Attributions](https://www.arxiv.org/abs/2504.13787)<br>
 Helen Jin\*, <b>Anton Xue</b>\*, Weiqiu You, Surbhi Goel, Eric Wong<br>
