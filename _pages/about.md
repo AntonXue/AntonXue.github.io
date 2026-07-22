@@ -29,12 +29,16 @@ My recent interests include:
 
 
 ## Preprints
+[The Grothendieck Constant is Less Than $\pi / (2 \log(1+\sqrt{2})) - 10^{-5}$](https://arxiv.org/abs/2606.03991)<br>
+Alan Li, Rahul Saha, <b>Anton Xue</b>, Swarat Chaudhuri, Adam Klivans, Pravesh K. Kothari, Raghu Meka<br>
+<i>Under Submission</i>
+
 [AnCoder: Anchored Code Generation via Discrete Diffusion Models](https://arxiv.org/abs/2602.17688)<br>
 <b>Anton Xue\*</b>, Litu Rout\*, Constantine Caramanis, Sanjay Shakkottai<br>
 <i>Under Submission</i>
 
 [T-FIX: Text-Based Explanations with Features Interpretable to eXperts](https://arxiv.org/abs/2511.04070)<br>
-Shreya Havaldar\*, Helen Jin\*, Chaehyeon Kim\*, <b>Anton Xue</b>\*, Weiqiu You\*, Gary Weissman, Rajat Deo, Sameed Khatana, Helen Qu, Marco Gatti, Daniel A Hashimoto, Amin Madani, Masao Sako, Bhuvnesh Jain, Lyle Ungar, Eric Wong<br>
+Shreya Havaldar\*, Weiqiu You\*, Chaehyeon Kim, <b>Anton Xue</b>, Helen Jin, Marco Gatti, Bhuvnesh Jain, Helen Qu, Amin Madani, Daniel A Hashimoto, Gary E Weissman, Rajat Deo, Sameed Khatana, Lyle Ungar, Eric Wong<br>
 <i>Under Submission</i>
 
 ## Publications
