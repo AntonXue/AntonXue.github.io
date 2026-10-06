@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% assign description = page.description | default: "Anton Xue is a postdoctoral fellow at UT Austin working on diffusion language models, AI agents for mathematical research, and provable AI safety and interpretability." %}
+<title>{% if page.url == "/" %}{{ site.name }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}</title>
+<meta name="description" content="{{ description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{% if page.url == "/" %}{{ site.name }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}">
+<meta property="og:description" content="{{ page.og_description | default: description | escape }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ "/images/antonxue-headshot.jpg" | absolute_url }}">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="{{ "/assets/favicon.svg" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/site.css" | relative_url }}">
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="nav" aria-label="Main">
+    <a class="home" href="{{ "/" | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>{{ site.name }}</a>
+    <ul>
+      <li><a href="{{ "/research/" | relative_url }}"{% if page.url == "/research/" %} aria-current="page"{% endif %}>Research</a></li>
+      <li><a href="{{ "/fun/" | relative_url }}"{% if page.url == "/fun/" %} aria-current="page"{% endif %}>Fun</a></li>
+    </ul>
+  </nav>
+
+  <main>
+{{ content }}
+  </main>
+
+  <footer>&copy; {{ site.time | date: "%Y" }} {{ site.name }}</footer>
+</div>
+<script>
+  // Open links that leave the site, and PDFs, in a new tab.
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (a.protocol.indexOf('http') !== 0) return;
+    if (a.host !== location.host || /\.pdf$/i.test(a.pathname)) { a.target = '_blank'; a.rel = 'noopener'; }
+  });
+</script>
+</body>
+</html>

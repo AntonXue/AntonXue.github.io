@@ -1,10 +1,12 @@
 ---
-layout: archive
+layout: page
 title: "Fun"
 permalink: /fun/
-author_profile: true
+description: "What Anton Xue does outside of research."
 ---
 
-{% include base_path %}
+[Breakdancing](https://youtu.be/iZSTERHl8CE?si=etiAmncxQwGWP0ik)
 
-:)
+Competitive Pokémon battling (Gens 4–8 singles, random battles)
+
+Haskell

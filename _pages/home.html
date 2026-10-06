@@ -1,0 +1,164 @@
+---
+layout: base
+permalink: /
+title: "Anton Xue"
+og_description: "Diffusion language models, AI agents for mathematical research, and provable AI safety and interpretability."
+redirect_from:
+  - /about/
+  - /about.html
+---
+<section class="intro">
+  <img src="{{ "/images/antonxue-headshot.jpg" | relative_url }}" alt="Portrait of Anton Xue" width="132" height="132">
+  <div>
+    <h1>Anton Xue</h1>
+    <p class="role">Postdoctoral Fellow, UT Austin</p>
+    <p>I work on diffusion language models, AI agents for mathematical research, and provable AI safety and interpretability. I'm currently at the <a href="https://www.ifml.institute/">Institute for Foundations of Machine Learning (IFML)</a> at UT Austin, working with <a href="https://sites.google.com/view/sanjay-shakkottai/home">Sanjay Shakkottai</a> and <a href="https://www.cs.utexas.edu/~klivans/">Adam Klivans</a>.</p>
+    <p>I completed my Ph.D. at the University of Pennsylvania with <a href="https://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and <a href="https://www.cis.upenn.edu/~exwong/">Eric Wong</a>.</p>
+    <div class="links">
+      <a href="{{ "/files/antonxue-cv.pdf" | relative_url }}">CV</a>
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://x.com/{{ site.author.twitter }}">Twitter</a>
+    </div>
+  </div>
+</section>
+
+<section id="research" aria-labelledby="research-title">
+  <h2 class="section-title" id="research-title">Selected works</h2>
+
+  <article class="area">
+    <div class="body">
+      <div>
+        <h3>Efficient diffusion language models</h3>
+        <p class="summary">Reducing the cost of AR-to-DLM pretraining; faster parallel decoding and better code generation.</p>
+        <p class="try"><a href="https://huggingface.co/UT-IFML/dQwen3.5-9B-Base">Try dQwen3.5 &rarr;</a></p>
+      </div>
+      <figure class="fig">
+        <div class="panel decode" role="img" aria-label="A seven-token sentence decoded in three steps. Each step fills in several tokens at scattered positions.">
+          <div class="row"><span class="step">start</span><span class="tok mask"></span><span class="tok mask"></span><span class="tok mask"></span><span class="tok mask"></span><span class="tok mask"></span><span class="tok mask"></span><span class="tok mask"></span></div>
+          <div class="row"><span class="step">step 1</span><span class="tok mask"></span><span class="tok new">in</span><span class="tok mask"></span><span class="tok new">gaps</span><span class="tok mask"></span><span class="tok mask"></span><span class="tok new">step</span></div>
+          <div class="row"><span class="step">step 2</span><span class="tok new">fill</span><span class="tok old">in</span><span class="tok mask"></span><span class="tok old">gaps</span><span class="tok mask"></span><span class="tok new">each</span><span class="tok old">step</span></div>
+          <div class="row"><span class="step">step 3</span><span class="tok old">fill</span><span class="tok old">in</span><span class="tok new">many</span><span class="tok old">gaps</span><span class="tok new">at</span><span class="tok old">each</span><span class="tok old">step</span></div>
+        </div>
+      </figure>
+    </div>
+    <ul class="papers">
+      <li><a class="title" href="https://arxiv.org/abs/2609.20751">dQwen3.5: Hybrid-Attention Diffusion Language Models</a><span class="meta"><span>arXiv 2026</span></span></li>
+      <li><a class="title" href="https://arxiv.org/abs/2602.17688">AnCoder: Anchored Code Generation via Discrete Diffusion Models</a><span class="meta"><span>arXiv 2026</span></span></li>
+    </ul>
+  </article>
+
+  <article class="area">
+    <div class="body">
+      <div>
+        <h3>AI agents for mathematical research</h3>
+        <p class="summary">Long-horizon AI agents for mathematical research; new bounds on the Grothendieck constant and automated theorem proving.</p>
+      </div>
+      <figure class="fig">
+        <div class="panel relax">
+          <svg viewBox="0 0 320 126" role="img" aria-label="Three steps: a discrete problem drawn as a graph, its continuous solution drawn as vectors in a sphere, and the graph again with each node rounded to one of two colors.">
+            <line class="rx-edge" x1="46" y1="20" x2="72.9" y2="28.8"/>
+            <line class="rx-edge" x1="72.9" y1="28.8" x2="84" y2="50"/>
+            <line class="rx-edge" x1="84" y1="50" x2="72.9" y2="71.2"/>
+            <line class="rx-edge" x1="72.9" y1="71.2" x2="46" y2="80"/>
+            <line class="rx-edge" x1="46" y1="80" x2="19.1" y2="71.2"/>
+            <line class="rx-edge" x1="19.1" y1="71.2" x2="8" y2="50"/>
+            <line class="rx-edge" x1="8" y1="50" x2="19.1" y2="28.8"/>
+            <line class="rx-edge" x1="19.1" y1="28.8" x2="46" y2="20"/>
+            <line class="rx-edge" x1="46" y1="20" x2="72.9" y2="71.2"/>
+            <line class="rx-edge" x1="72.9" y1="28.8" x2="46" y2="80"/>
+            <line class="rx-edge" x1="84" y1="50" x2="19.1" y2="71.2"/>
+            <line class="rx-edge" x1="72.9" y1="71.2" x2="8" y2="50"/>
+            <line class="rx-edge" x1="46" y1="80" x2="19.1" y2="28.8"/>
+            <line class="rx-edge" x1="19.1" y1="71.2" x2="46" y2="20"/>
+            <line class="rx-edge" x1="8" y1="50" x2="72.9" y2="28.8"/>
+            <line class="rx-edge" x1="19.1" y1="28.8" x2="84" y2="50"/>
+            <circle class="rx-node" cx="46" cy="20" r="5"/>
+            <circle class="rx-node" cx="72.9" cy="28.8" r="5"/>
+            <circle class="rx-node" cx="84" cy="50" r="5"/>
+            <circle class="rx-node" cx="72.9" cy="71.2" r="5"/>
+            <circle class="rx-node" cx="46" cy="80" r="5"/>
+            <circle class="rx-node" cx="19.1" cy="71.2" r="5"/>
+            <circle class="rx-node" cx="8" cy="50" r="5"/>
+            <circle class="rx-node" cx="19.1" cy="28.8" r="5"/>
+            <path class="rx-arrow" d="M101 50H113M109 46L113 50L109 54"/>
+            <circle class="rx-sphere" cx="160" cy="50" r="35"/>
+            <ellipse class="rx-eq" cx="160" cy="50" rx="35" ry="11"/>
+            <line class="rx-vec" x1="160" y1="50" x2="138.9" y2="23"/>
+            <circle class="rx-dot" cx="138.9" cy="23" r="3"/>
+            <line class="rx-vec" x1="160" y1="50" x2="171.8" y2="27.7"/>
+            <circle class="rx-dot" cx="171.8" cy="27.7" r="3"/>
+            <line class="rx-vec" x1="160" y1="50" x2="184.8" y2="69.4"/>
+            <circle class="rx-dot" cx="184.8" cy="69.4" r="3"/>
+            <line class="rx-vec rx-dash" x1="160" y1="50" x2="181.2" y2="45.5"/>
+            <circle class="rx-dot rx-dot2" cx="181.2" cy="45.5" r="3"/>
+            <line class="rx-vec rx-dash" x1="160" y1="50" x2="147.5" y2="80.8"/>
+            <circle class="rx-dot rx-dot2" cx="147.5" cy="80.8" r="3"/>
+            <line class="rx-vec rx-dash" x1="160" y1="50" x2="136" y2="55.1"/>
+            <circle class="rx-dot rx-dot2" cx="136" cy="55.1" r="3"/>
+            <path class="rx-arrow" d="M207 50H219M215 46L219 50L215 54"/>
+            <line class="rx-edge" x1="274" y1="20" x2="300.9" y2="28.8"/>
+            <line class="rx-edge" x1="300.9" y1="28.8" x2="312" y2="50"/>
+            <line class="rx-edge" x1="312" y1="50" x2="300.9" y2="71.2"/>
+            <line class="rx-edge" x1="300.9" y1="71.2" x2="274" y2="80"/>
+            <line class="rx-edge" x1="274" y1="80" x2="247.1" y2="71.2"/>
+            <line class="rx-edge" x1="247.1" y1="71.2" x2="236" y2="50"/>
+            <line class="rx-edge" x1="236" y1="50" x2="247.1" y2="28.8"/>
+            <line class="rx-edge" x1="247.1" y1="28.8" x2="274" y2="20"/>
+            <line class="rx-edge" x1="274" y1="20" x2="300.9" y2="71.2"/>
+            <line class="rx-edge" x1="300.9" y1="28.8" x2="274" y2="80"/>
+            <line class="rx-edge" x1="312" y1="50" x2="247.1" y2="71.2"/>
+            <line class="rx-edge" x1="300.9" y1="71.2" x2="236" y2="50"/>
+            <line class="rx-edge" x1="274" y1="80" x2="247.1" y2="28.8"/>
+            <line class="rx-edge" x1="247.1" y1="71.2" x2="274" y2="20"/>
+            <line class="rx-edge" x1="236" y1="50" x2="300.9" y2="28.8"/>
+            <line class="rx-edge" x1="247.1" y1="28.8" x2="312" y2="50"/>
+            <circle class="rx-pos" cx="274" cy="20" r="5"/>
+            <circle class="rx-pos" cx="300.9" cy="28.8" r="5"/>
+            <circle class="rx-neg" cx="312" cy="50" r="5"/>
+            <circle class="rx-pos" cx="300.9" cy="71.2" r="5"/>
+            <circle class="rx-neg" cx="274" cy="80" r="5"/>
+            <circle class="rx-neg" cx="247.1" cy="71.2" r="5"/>
+            <circle class="rx-pos" cx="236" cy="50" r="5"/>
+            <circle class="rx-neg" cx="247.1" cy="28.8" r="5"/>
+            <text class="rx-label" x="46" y="118">discrete problem</text>
+            <text class="rx-label" x="160" y="118">continuous solution</text>
+            <text class="rx-label" x="274" y="118">rounded solution</text>
+          </svg>
+        </div>
+      </figure>
+    </div>
+    <ul class="papers">
+      <li><a class="title" href="https://arxiv.org/abs/2608.11158">New Lower and Upper Bounds for the Grothendieck Constant</a><span class="meta"><span>arXiv 2026</span></span></li>
+      <li><a class="title" href="https://arxiv.org/abs/2608.11195">Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration</a><span class="meta"><span>arXiv 2026</span></span></li>
+      <li><a class="title" href="https://openreview.net/forum?id=8UcFFcJ2fm">Optimizing Analytic Constants via AI-Guided Lean Proof Refinement</a><span class="meta"><span>NeurIPS 2026</span></span></li>
+    </ul>
+  </article>
+
+  <article class="area">
+    <div class="body">
+      <div>
+        <h3>Provable AI safety and interpretability</h3>
+        <p class="summary">Provable guarantees for LLM reasoning and interpretability; robust rule following, reliable reasoning chains, and stable explanations.</p>
+      </div>
+      <figure class="fig">
+        <div class="panel chain" role="img" aria-label="An LLM's answer to a word problem, checked step by step. The question says a fraction's denominator is 3 times its numerator minus 7, and that the fraction equals two fifths. Steps 1 and 2 are sound. Step 3 wrongly uses three fifths, and step 4 builds on that error; both are flagged.">
+          <div class="row given"><span class="claim">A fraction's denominator is 3&times; its numerator minus 7. If it <span class="nb">equals <b>2/5</b>,</span> find the numerator.</span></div>
+          <div class="row pass"><span class="lbl">step 1</span><span class="claim">Let the numerator be x.</span><span class="verdict">&check;</span></div>
+          <div class="row pass"><span class="lbl">step 2</span><span class="claim">The denominator is 3x &minus; 7.</span><span class="verdict">&check;</span></div>
+          <div class="row fail"><span class="lbl">step 3</span><span class="claim">So x/(3x &minus; 7) = <b>3/5</b>.</span><span class="verdict">&cross;</span></div>
+          <div class="row fail"><span class="lbl">step 4</span><span class="claim">Then 5x = 9x &minus; 20, so x = 5.</span><span class="verdict">&cross;</span></div>
+        </div>
+      </figure>
+    </div>
+    <ul class="papers">
+      <li><a class="title" href="https://arxiv.org/abs/2507.12948">Probabilistic Soundness Guarantees in LLM Reasoning Chains</a><span class="meta"><span>EMNLP 2025</span><a href="https://debugml.github.io/ares/">blog</a></span></li>
+      <li><a class="title" href="https://arxiv.org/abs/2504.13787">Probabilistic Stability Guarantees for Feature Attributions</a><span class="meta"><span>NeurIPS 2025</span><a href="https://debugml.github.io/soft-stability/">blog</a></span></li>
+      <li><a class="title" href="https://arxiv.org/abs/2407.00075">Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference</a><span class="meta"><span>ICLR 2025</span><a href="https://debugml.github.io/logicbreaks/">blog</a></span></li>
+      <li><a class="title" href="https://arxiv.org/abs/2307.05902">Stability Guarantees for Feature Attributions with Multiplicative Smoothing</a><span class="meta"><span>NeurIPS 2023</span><a href="https://debugml.github.io/multiplicative-smoothing/">blog</a></span></li>
+    </ul>
+  </article>
+
+  <p class="earlier">Earlier work spans formal verification, programming languages, convex optimization, and control, including Haskell symbolic execution and certified compilation for WebAssembly. <a href="{{ "/research/" | relative_url }}">All publications &rarr;</a></p>
+</section>
