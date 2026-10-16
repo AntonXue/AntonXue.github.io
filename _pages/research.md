@@ -10,7 +10,17 @@ description: "Publications by Anton Xue."
 
 \* denotes equal contributions. Also see my [Google Scholar]({{ site.author.googlescholar }}).
 
-## Preprints and Technical Reports
+[Optimizing Analytic Constants via AI-Guided Lean Proof Refinement](https://openreview.net/forum?id=8UcFFcJ2fm)<br>
+Rahul Saha\*, Alan Li\*, <b>Anton Xue</b>, Adam Klivans, Pravesh Kothari, Raghu Meka, and Swarat Chaudhuri<br>
+<i>NeurIPS 2026</i>
+
+[Multi-Target Few-Shot Prompting with Diffusion Language Models](https://arxiv.org/abs/2610.22294)<br>
+<b>Anton Xue</b>, Alan Li, and Rahul Saha<br>
+<i>arXiv 2026</i>
+
+[PIG: Parallel Inconsistency Guidance for Accelerating Diffusion Language Models](https://arxiv.org/abs/2610.17375)<br>
+Quentin Fruytier, <b>Anton Xue</b>, Sanjay Shakkottai, and Sujay Sanghavi<br>
+<i>arXiv 2026</i>
 
 [LESSER: Post-Training Data Selection with Output-Layer Gradients](https://arxiv.org/abs/2610.03702)<br>
 Lyuxin David Zhang, Eric Wong, Surbhi Goel, and <b>Anton Xue</b><br>
@@ -20,35 +30,25 @@ Lyuxin David Zhang, Eric Wong, Surbhi Goel, and <b>Anton Xue</b><br>
 <b>Anton Xue</b>, Litu Rout, Aditya Akella, Adam Klivans, Sujay Sanghavi, and Sanjay Shakkottai<br>
 <i>arXiv 2026</i>
 
-[Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration](https://arxiv.org/abs/2608.11195)<br>
-Alan Li\*, Rahul Saha\*, <b>Anton Xue</b>, Swarat Chaudhuri, Adam Klivans, Pravesh Kothari, and Raghu Meka<br>
-<i>arXiv 2026</i>
-
 [New Lower and Upper Bounds for the Grothendieck Constant](https://arxiv.org/abs/2608.11158)<br>
 Rahul Saha\*, Alan Li\*, <b>Anton Xue</b>, Swarat Chaudhuri, Adam Klivans, Pravesh Kothari, and Raghu Meka<br>
+<i>arXiv 2026</i>
+
+[Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration](https://arxiv.org/abs/2608.11195)<br>
+Alan Li\*, Rahul Saha\*, <b>Anton Xue</b>, Swarat Chaudhuri, Adam Klivans, Pravesh Kothari, and Raghu Meka<br>
 <i>arXiv 2026</i>
 
 [The Grothendieck Constant is Less Than π/(2 log(1+√2)) − 10<sup>−5</sup>](https://arxiv.org/abs/2606.03991)<br>
 Alan Li\*, Rahul Saha\*, <b>Anton Xue</b>, Swarat Chaudhuri, Adam Klivans, Pravesh Kothari, and Raghu Meka<br>
 <i>arXiv 2026</i>
 
-[AnCoder: Anchored Code Generation via Discrete Diffusion Models](https://arxiv.org/abs/2602.17688)<br>
-<b>Anton Xue</b>\*, Litu Rout\*, Constantine Caramanis, and Sanjay Shakkottai<br>
-<i>arXiv 2026</i>
-
-[T-FIX: Text-Based Explanations with Features Interpretable to eXperts](https://arxiv.org/abs/2511.04070)<br>
-Shreya Havaldar\*, Weiqiu You\*, Chaehyeon Kim, <b>Anton Xue</b>, Helen Jin, Marco Gatti, Bhuvnesh Jain, Helen Qu, Amin Madani, Daniel Hashimoto, Gary Weissman, Rajat Deo, Sameed Khatana, Lyle Ungar, and Eric Wong<br>
-<i>arXiv 2025</i>
-
-## Publications
-
-[Optimizing Analytic Constants via AI-Guided Lean Proof Refinement](https://openreview.net/forum?id=8UcFFcJ2fm)<br>
-Rahul Saha\*, Alan Li\*, <b>Anton Xue</b>, Adam Klivans, Pravesh Kothari, Raghu Meka, and Swarat Chaudhuri<br>
-<i>NeurIPS 2026</i>
-
 [Missingness Bias Calibration in Feature Attribution Explanations](https://openreview.net/forum?id=9AbJO130G8)<br>
 Shailesh Sridhar, <b>Anton Xue</b>, and Eric Wong<br>
 <i>ICLR 2026</i>
+
+[AnCoder: Anchored Code Generation via Discrete Diffusion Models](https://arxiv.org/abs/2602.17688)<br>
+<b>Anton Xue</b>\*, Litu Rout\*, Constantine Caramanis, and Sanjay Shakkottai<br>
+<i>arXiv 2026</i>
 
 [The Transformer Cookbook](https://arxiv.org/abs/2510.00368)<br>
 Andy Yang, Christopher Watson, <b>Anton Xue</b>, Satwik Bhattamishra, Jose Llarena, William Merrill, Emile Dos Santos Ferreira, Anej Svete, and David Chiang<br>
@@ -57,6 +57,10 @@ Andy Yang, Christopher Watson, <b>Anton Xue</b>, Satwik Bhattamishra, Jose Llare
 [Probabilistic Stability Guarantees for Feature Attributions](https://arxiv.org/abs/2504.13787)<br>
 Helen Jin\*, <b>Anton Xue</b>\*, Weiqiu You, Surbhi Goel, and Eric Wong<br>
 <i>NeurIPS 2025</i> · [code](https://github.com/helenjin/soft_stability) · [blog](https://debugml.github.io/soft-stability/)
+
+[T-FIX: Text-Based Explanations with Features Interpretable to eXperts](https://arxiv.org/abs/2511.04070)<br>
+Shreya Havaldar\*, Weiqiu You\*, Chaehyeon Kim, <b>Anton Xue</b>, Helen Jin, Marco Gatti, Bhuvnesh Jain, Helen Qu, Amin Madani, Daniel Hashimoto, Gary Weissman, Rajat Deo, Sameed Khatana, Lyle Ungar, and Eric Wong<br>
+<i>arXiv 2025</i>
 
 [Probabilistic Soundness Guarantees in LLM Reasoning Chains](https://arxiv.org/abs/2507.12948)<br>
 Weiqiu You, <b>Anton Xue</b>, Shreya Havaldar, Delip Rao, Helen Jin, Chris Callison-Burch, and Eric Wong<br>
@@ -98,13 +102,13 @@ Chang Zhu, Ziyang Li, <b>Anton Xue</b>, Ati Priya Bajaj, William Gibbs, Yibo Liu
 Osbert Bastani, Shuo Li, and <b>Anton Xue</b><br>
 <i>RSS 2021</i>
 
-[Synchronization Schemas](/files/papers/alur2021synchronization.pdf)<br>
-Rajeev Alur, Phillip Hilliard, Zachary Ives, Konstantinos Kallas, Konstantinos Mamouras, Filip Niksic, Caleb Stanford, Val Tannen, and <b>Anton Xue</b><br>
-<i>Principles of Database Systems 2021</i>
-
 [Data-Driven System Level Synthesis](https://arxiv.org/abs/2011.10674)<br>
 <b>Anton Xue</b> and Nikolai Matni<br>
 <i>L4DC 2021</i> · [code](https://github.com/unstable-zeros/data-driven-sls)
+
+[Synchronization Schemas](/files/papers/alur2021synchronization.pdf)<br>
+Rajeev Alur, Phillip Hilliard, Zachary Ives, Konstantinos Kallas, Konstantinos Mamouras, Filip Niksic, Caleb Stanford, Val Tannen, and <b>Anton Xue</b><br>
+<i>Principles of Database Systems 2021</i>
 
 [A Self-certifying Compilation Framework for WebAssembly](/files/papers/namjoshi2021self.pdf)<br>
 Kedar Namjoshi and <b>Anton Xue</b><br>
