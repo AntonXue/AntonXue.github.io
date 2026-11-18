@@ -10,8 +10,8 @@ description: "Publications by Anton Xue."
 
 \* denotes equal contributions. Also see my [Google Scholar]({{ site.author.googlescholar }}).
 
-[Optimizing Analytic Constants via AI-Guided Lean Proof Refinement](https://openreview.net/forum?id=8UcFFcJ2fm)<br>
-Rahul Saha\*, Alan Li\*, <b>Anton Xue</b>, Adam Klivans, Pravesh Kothari, Raghu Meka, and Swarat Chaudhuri<br>
+[Improving Analytic Constants via Interpretable AI-Guided Lean Proof Refinement](https://openreview.net/forum?id=8UcFFcJ2fm)<br>
+Rahul Saha\*, Alan Li\*, <b>Anton Xue</b>, Swarat Chaudhuri, Adam Klivans, Pravesh Kothari, and Raghu Meka<br>
 <i>NeurIPS 2026</i>
 
 [Multi-Target Few-Shot Prompting with Diffusion Language Models](https://arxiv.org/abs/2610.22294)<br>
